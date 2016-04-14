@@ -17,6 +17,10 @@ docker-machine create --driver virtualbox --engine-registry-mirror http://$( doc
 
 - Docker Toolbox
 
+## Caveats
+
+- This only works with the official Docker registry, and doesn't yet support other registries (including private ones). 
+
 ## License
 
 This is licensed under the Apache license
